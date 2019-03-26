@@ -8,7 +8,9 @@
 
 #import "CTMediator+A.h"
 
+static const NSString *kCTMediatorParamsKeySwiftTargetModuleName = @"kCTMediatorParamsKeySwiftTargetModuleName";
 @implementation CTMediator (A)
+
 
 - (UIViewController *)A_aViewController
 {
